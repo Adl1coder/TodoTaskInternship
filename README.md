@@ -1,6 +1,8 @@
 # TodoTaskInternship
 NavigationComponent || parcelable || viewbinding || Staj
 
+# Tarih ekleme mevcuttur. (calendar library)
+
 # Ekran Görüntüleri:
 
 
