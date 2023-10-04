@@ -5,6 +5,8 @@ NavigationComponent || parcelable || viewbinding || Staj
 
 
 <img width="215" alt="image" src="https://github.com/Adl1coder/TodoTaskInternship/assets/93915867/9ed02ae8-1afc-455f-b4e0-622f8870c054">
+  <img width="210" alt="image" src="https://github.com/Adl1coder/TodoTaskInternship/assets/93915867/560580f9-28c4-44a4-b1ff-a62116664a0a">
+
 
 ![image](https://github.com/Adl1coder/TodoTaskInternship/assets/93915867/5c704c92-02ed-43d3-9f85-324aa8e90486)
   ![image](https://github.com/Adl1coder/TodoTaskInternship/assets/93915867/cde11b81-dcc7-42e6-86d8-e1a1ef76c291)
