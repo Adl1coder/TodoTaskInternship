@@ -10,6 +10,7 @@ NavigationComponent || parcelable || viewbinding || Staj
   <img width="200" alt="aaaaaa" src="https://github.com/Adl1coder/TodoTaskInternship/assets/93915867/e105f89c-6e48-402b-b8ef-7fb076c32946">
   <img width="196" alt="1as" src="https://github.com/Adl1coder/TodoTaskInternship/assets/93915867/d349ea60-4083-4d35-8b4d-4d4716c4b0d1">
   <img width="197" alt="2as" src="https://github.com/Adl1coder/TodoTaskInternship/assets/93915867/89c58b4e-62ee-4b57-994d-caade11b6ce1">
+  <img width="202" alt="a1aa" src="https://github.com/Adl1coder/TodoTaskInternship/assets/93915867/8cc27d0c-771e-4974-a61b-26706de22dcf">
 
 
 
