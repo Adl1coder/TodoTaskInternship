@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.adilegngr.myapplication.ui.splash.SplashScreen"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreen_to_notesScreen"
+            app:destination="@id/notesScreen"
+            app:popUpTo="@id/splashScreen"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/notesScreen"
+        android:name="com.adilegngr.myapplication.ui.note.NoteScreen"
+        android:label="fragment_notes_screen"
+        tools:layout="@layout/fragment_note_screen" >
+        <action
+            android:id="@+id/action_notesScreen_to_savedNotesScreen"
+            app:destination="@id/savedNotesScreen"
+            app:popUpTo="@id/notesScreen"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_notesScreen_to_detailNoteScreen"
+            app:destination="@id/detailNoteScreen"
+            app:popUpTo="@id/notesScreen"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedNotesScreen"
+        android:name="com.adilegngr.myapplication.ui.saved.SavedScreen"
+        android:label="fragment_saved_notes_screen"
+        tools:layout="@layout/fragment_saved_screen" >
+        <action
+            android:id="@+id/action_savedNotesScreen_to_detailNoteScreen"
+            app:destination="@id/detailNoteScreen"
+            app:popUpTo="@id/savedNotesScreen"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_savedNotesScreen_to_notesScreen"
+            app:destination="@id/notesScreen"
+            app:popUpTo="@id/savedNotesScreen"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailNoteScreen"
+        android:name="com.adilegngr.myapplication.ui.detail.DetailScreen"
+        android:label="fragment_detail_note_screen"
+        tools:layout="@layout/fragment_detail_screen" >
+        <argument
+            android:name="note"
+            app:argType="com.adilegngr.myapplication.data.model.NoteModel" />
+        <argument
+            android:name="fromHome"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <argument
+            android:name="fromSaved"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <action
+            android:id="@+id/action_detailNoteScreen_to_notesScreen"
+            app:destination="@id/notesScreen"
+            app:popUpTo="@id/detailNoteScreen"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
